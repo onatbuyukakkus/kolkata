@@ -1,0 +1,150 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Create user from received MDB",
+        "description": "",
+        "id": "barcode-creation;create-user-from-received-mdb",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 122004767,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "A message is received",
+            "match": {
+              "location": "StepDefinitions.a_message_is_received()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 170265,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The message is processed",
+            "match": {
+              "location": "StepDefinitions.the_message_is_processed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1308780,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The message type exists",
+            "match": {
+              "location": "StepDefinitions.the_message_type_exists()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Barcode creation",
+    "description": "",
+    "id": "barcode-creation",
+    "keyword": "Feature",
+    "uri": "src/test/java/cucumberFeatures/MdbTest.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Create a barcode for a user",
+        "description": "",
+        "id": "barcode-creation;create-a-barcode-for-a-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6670893,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am a user",
+            "match": {
+              "location": "StepDefinitions.checkUser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 190801,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I create a barcode",
+            "match": {
+              "location": "StepDefinitions.checkCreateBarcode()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108766,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I get a barcode",
+            "match": {
+              "location": "StepDefinitions.checkBarcode()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Barcode creation",
+    "description": "",
+    "id": "barcode-creation",
+    "keyword": "Feature",
+    "uri": "src/test/java/cucumberFeatures/barcodeTest.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
